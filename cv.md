@@ -4,10 +4,10 @@ Junior Developer
 
 ## Contacts:
 
-- E-mail: mikitamakeichyk@gmail.com
-- Skype: live:.cid.39657321982fe9d5
-- Telegram: @whoisstronger
-- GitHub: makeychik
+- E-mail: [_mikitamakeichyk@gmail.com_](mailto:mikitamakeichyk@gmail.com)
+- Skype: [_live:.cid.39657321982fe9d5_](https://join.skype.com/invite/a25sLBtw0zUf)
+- Telegram: [_@whoisstronger_](t.me/whoisstronger)
+- GitHub: [_makeychik_](https://github.com/makeychik)
 
 ## About me:
 
