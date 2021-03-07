@@ -1,0 +1,116 @@
+* {
+  font-family: sans-serif;
+  margin: 0;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+.content {
+  width: 840px;
+  margin: auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background: #88bdbc;
+  flex-wrap: wrap;
+}
+
+.name {
+  text-align: center;
+  margin: auto;
+  color: #fff;
+}
+
+.photo {
+  background: #112d32;
+  padding: 30px;
+}
+
+header img {
+  border-radius: 50%;
+
+  margin: auto;
+  display: block;
+  outline: #fff 3px;
+}
+
+.contacts ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+.contacts a {
+  display: flex;
+  align-items: center;
+}
+
+.label {
+  margin-left: 5px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+.main-wrapper {
+  display: flex;
+}
+
+a:link,
+a:visited,
+a:active {
+  color: white;
+  text-decoration: none;
+}
+
+.label:hover {
+  color: black;
+  transition: 0.3s;
+}
+
+.contacts li img {
+  width: 24px;
+}
+
+
+
+main {
+  display: flex;
+  justify-content: space-between;
+  padding: 1em 3em;
+  background: #254e58;
+  color: white;
+  flex-direction: column;
+}
+.left-side, .right-side {
+  width: 50%;
+  padding: 1.5rem;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #88bdbc;
+  padding: 1rem 3rem;
+}
+
+footer .links-container {
+  display: flex;
+}
+
+footer a span{
+  color: black;
+}
+
+.github-link {
+  margin-right: 2rem;
+}
+
+.rs-course-link img{
+  height: 4rem;
+}
