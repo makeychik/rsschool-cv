@@ -76,7 +76,9 @@ a:active {
   width: 24px;
 }
 
-
+.about p {
+  text-align: justify;
+}
 
 main {
   display: flex;

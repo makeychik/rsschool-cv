@@ -9,6 +9,10 @@
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/styles/default.min.css"
+    />
   </head>
   <body>
     <div class="content">
@@ -98,7 +102,7 @@
         <section class="code">
           <h2>Code example</h2>
           <pre>
-            <code>
+            <code class="language-js">
                 function quickSort(arr) {
                   if (arr.length &lt; 2) return arr;
                   let pivot = arr[0];
@@ -141,5 +145,7 @@
         </div>
       </footer>
     </div>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
   </body>
 </html>
