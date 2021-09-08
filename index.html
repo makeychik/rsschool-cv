@@ -5,147 +5,138 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CV - Mikita Makeichyk</title>
     <link rel="stylesheet" href="style.css" />
-    <link
-      href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/styles/default.min.css"
-    />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/styles/base16/rebecca.min.css" />
   </head>
-  <body>
-    <div class="content">
-      <header>
-        <div class="photo">
-          <img
-            src="https://scontent-waw1-1.cdninstagram.com/v/t51.2885-19/s320x320/120051333_653009348687376_6161883217222923121_n.jpg?tp=1&_nc_ht=scontent-waw1-1.cdninstagram.com&_nc_ohc=h9St5QBtrssAX8tEIh-&oh=4597ad1e7a80254289f2e82ff80a06a1&oe=6063BC75"
-            alt="My photo"
-          />
-        </div>
-        <div class="name">
-          <h1>Mikita Makeichyk</h1>
-          <span id="level">Junior Developer</span>
-        </div>
-      </header>
-      <main>
-        <div class="main-wrapper">
-          <div class="left-side">
-            <section class="contacts">
-              <h2>Contacts</h2>
-              <ul>
-                <li>
-                  <a href="mailto:mikitamakeichyk@gmail.com"
-                    ><span class="material-icons"> alternate_email </span
-                    ><span class="label"> mikitamakeichyk@gmail.com</span></a
+  <body class="body">
+    <header class="header">
+      <div class="container header__container">
+        <section class="photo header__photo">
+          <img class="photo__image" src="assets/img/photo.jpg" alt="My photo" />
+        </section>
+        <section class="title header__title">
+          <h1 class="title__name">Mikita Makeichyk</h1>
+          <span class="title__level">Junior Frontend Developer</span>
+        </section>
+      </div>
+    </header>
+    <main class="main">
+      <section class="info">
+        <div class="container info__container">
+          <div class="info__column">
+            <section class="contacts info__item">
+              <h2 class="info__heading">Contacts</h2>
+              <ul class="contacts__list">
+                <li class="contacts__item">
+                  <a class="contacts__link" href="mailto:mikitamakeichyk@gmail.com"
+                    ><span class="material-icons contacts__icon"> alternate_email </span
+                    ><span class="contacts__label"> mikitamakeichyk@gmail.com</span></a
                   >
                 </li>
-                <li>
-                  <a href="https://join.skype.com/invite/a25sLBtw0zUf"
-                    ><span class="material-icons"> call </span
-                    ><span class="label"> live:.cid.39657321982fe9d5</span></a
+                <li class="contacts__item">
+                  <a class="contacts__link" href="https://join.skype.com/invite/a25sLBtw0zUf"
+                    ><span class="material-icons contacts__icon"> call </span
+                    ><span class="contacts__label"> live:.cid.39657321982fe9d5</span></a
                   >
                 </li>
-                <li>
-                  <a href="https://t.me/whoisstronger"
-                    ><span class="material-icons"> send </span
-                    ><span class="label"> @whoisstronger</span></a
+                <li class="contacts__item">
+                  <a class="contacts__link" href="https://t.me/whoisstronger"
+                    ><span class="material-icons contacts__icon"> send </span
+                    ><span class="contacts__label"> @whoisstronger</span></a
                   >
                 </li>
-                <li>
-                  <a href="https://github.com/makeychik">
+                <li class="contacts__item">
+                  <a class="contacts__link" href="https://github.com/makeychik">
                     <img
-                      src="https://i.ibb.co/x8L8G64/Git-Hub-Mark-Light-64px.png"
+                      class="contacts__icon contacts__icon_image"
+                      src="assets/icons/github.png"
                       alt="My GitHub"
-                    /><span class="label"> makeychik</span></a
+                    /><span class="contacts__label"> makeychik</span></a
                   >
                 </li>
               </ul>
             </section>
-            <section class="about">
-              <h2>About me</h2>
+            <section class="about info__item">
+              <h2 class="info__heading">About me</h2>
               <p>
-                21 y.o. I graduated from the Faculty of Mechanics and
-                Mathematics of BSU, majoring in web-programming. Programming
-                opens up an incredible amount of roads and opportunities.
-                Programming is the creative process, the development of
-                thinking, the way to overcome weaknesses, the solution of
-                business problems. Technologists and thinkers will always be in
-                demand. Since self-improvement is one of the most important
+                21 y.o. I graduated from the Faculty of Mechanics and Mathematics of BSU, majoring in web-programming.
+                Programming opens up an incredible amount of roads and opportunities. Programming is the creative
+                process, the development of thinking, the way to overcome weaknesses, the solution of business problems.
+                Technologists and thinkers will always be in demand. Since self-improvement is one of the most important
                 principles of my life, I have chosen to join this path.
               </p>
             </section>
           </div>
-          <div class="right-side">
-            <section class="skills">
-              <h2>Skills</h2>
-              <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JS</li>
-                <li>Git</li>
+          <div class="info__column">
+            <section class="skills info__item">
+              <h2 class="info__heading">Skills</h2>
+              <ul class="skills__list">
+                <li class="skills__item">HTML</li>
+                <li class="skills__item">CSS, SCSS</li>
+                <li class="skills__item">JS</li>
+                <li class="skills__item">Git</li>
+                <li class="skills__item">basic React</li>
+                <li class="skills__item">npm</li>
+                <li class="skills__item">BEM</li>
               </ul>
             </section>
-            <section class="education">
-              <h2>Education</h2>
-              <p>
-                Mechanics and Mathematics Faculty of Belarusian State University
-                2016-2020
-              </p>
+            <section class="education info__item">
+              <h2 class="info__heading">Education</h2>
+              <p>Mechanics and Mathematics Faculty of Belarusian State University 2016-2020</p>
             </section>
-            <section class="english">
-              <h2>English level</h2>
+            <section class="english info__item">
+              <h2 class="info__heading">English level</h2>
               <p>Pre-Intermediate — A2+ (still improving)</p>
             </section>
           </div>
         </div>
-        <section class="code">
+      </section>
+      <section class="code">
+        <div class="container code__container">
           <h2>Code example</h2>
           <pre>
-            <code class="language-js">
-                function quickSort(arr) {
-                  if (arr.length &lt; 2) return arr;
-                  let pivot = arr[0];
-                  const left = [];
-                  const right = [];
+              <code class="language-javascript">
+                  function quickSort(arr) {
+                      if (arr.length &lt; 2) return arr;
+                      let pivot = arr[0];
+                      const left = [];
+                      const right = [];
 
-                  for (let i = 1; i &lt; arr.length; i++) {
-                    if (pivot > arr[i]) {
-                      left.push(arr[i]);
-                    } else {
-                      right.push(arr[i]);
-                    }
+                      for (let i = 1; i &lt; arr.length; i++) {
+                          if (pivot > arr[i]) {
+                              left.push(arr[i]);
+                          } else {
+                              right.push(arr[i]);
+                          }
+                      }
+                      return quickSort(left).concat(pivot, quickSort(right));
                   }
-                  return quickSort(left).concat(pivot, quickSort(right));
-            </code>
-          </pre>
-        </section>
-      </main>
-      <footer>
-        <span id="year">2021</span>
-        <div class="links-container">
-          <a href="https://github.com/makeychik">
-            <figure class="github-link">
-              <img
-                src="https://i.ibb.co/nnL4dgM/Git-Hub-Mark-64px.png"
-                alt="My GitHub"
-              />
-              <figcaption>
-                <span>makeychik</span>
-              </figcaption>
-            </figure>
-          </a>
-          <div class="rs-course-link">
+              </code>
+            </pre>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container footer__container">
+        <div class="footer__year">2021</div>
+        <div class="footer__links">
+          <div class="github-link footer__github-link">
+            <a href="https://github.com/makeychik">
+              <img class="github-link__image" src="assets/icons/github.png" alt="My GitHub" />
+              <span class="github-link__title">makeychik</span>
+            </a>
+          </div>
+          <div class="rs-link footer__rs-link">
             <a href="https://rs.school/js/"
-              ><img
-                src="https://rs.school/images/rs_school_js.svg"
-                alt="Rolling Scopes logo"
+              ><img class="rs-link__image" src="https://rs.school/images/rs_school_js.svg" alt="Rolling Scopes logo"
             /></a>
           </div>
         </div>
-      </footer>
-    </div>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/highlight.min.js"></script>
-    <script>hljs.highlightAll();</script>
+      </div>
+    </footer>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/highlight.min.js"></script>
+    <script>
+      hljs.highlightAll();
+    </script>
   </body>
 </html>
