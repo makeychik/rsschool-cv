@@ -1,6 +1,6 @@
 # Mikita Makeichyk
 
-Junior Developer
+Junior Frontend Developer
 
 ## Contacts:
 
@@ -11,14 +11,16 @@ Junior Developer
 
 ## About me:
 
-21 y.o. I graduated from the Faculty of Mechanics and Mathematics of BSU, majoring in web-programming. Programming opens up an incredible amount of roads and opportunities. Programming is the creative process, the development of thinking, the way to overcome weaknesses, the solution of business problems. Technologists and thinkers will always be in demand. Since self-improvement is one of the most important principles of my life, I have chosen to join this path.
+22 y.o. I graduated from the Faculty of Mechanics and Mathematics of BSU, majoring in web-programming. Programming opens up an incredible amount of roads and opportunities. Programming is the creative process, the development of thinking, the way to overcome weaknesses, the solution of business problems. Technologists and thinkers will always be in demand. Since self-improvement is one of the most important principles of my life, I have chosen to join this path.
 
 ## Skills:
 
 - HTML
-- CSS
+- CSS, SCSS
 - JS
 - Git
+- basic React
+- npm
 
 ## Code example:
 
@@ -46,4 +48,4 @@ _Mechanics and Mathematics Faculty of Belarusian State University 2016-2020_
 
 ## English level:
 
-_**Pre-Intermediate — A2** (still improving)_
+_**Intermediate — B1**_
